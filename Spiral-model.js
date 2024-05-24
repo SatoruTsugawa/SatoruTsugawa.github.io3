@@ -9,7 +9,7 @@ function setup() {
   textTitle.style('font-size','40px');
   textTitle.style('font-weight','bold');
   let cp;
-  cp=createCanvas(700, 700, WEBGL);
+  cp=createCanvas(700, 600, WEBGL);
   cp.position(50,90);
   sliderSetting();
 
@@ -27,7 +27,7 @@ function setup() {
 function draw(){
   orbitControl();
   background(200);
-  translate(0,0,0);
+  translate(0,-50,0);
   rotateY(Math.PI/4);
   rotateY(frameCount * 0.005);
   rotateX(-Math.PI/30);
