@@ -9,7 +9,7 @@ function setup() {
   textTitle.style('font-size','40px');
   textTitle.style('font-weight','bold');
   let cp;
-  cp=createCanvas(700, 1000, WEBGL);
+  cp=createCanvas(700, 700, WEBGL);
   cp.position(50,90);
   sliderSetting();
 
