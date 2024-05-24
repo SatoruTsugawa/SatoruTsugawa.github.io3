@@ -27,7 +27,7 @@ function setup() {
 function draw(){
   orbitControl();
   background(200);
-  translate(0,450,0);
+  translate(0,250,0);
   rotateY(Math.PI/4);
   rotateY(frameCount * 0.005);
   rotateX(-Math.PI/30);
